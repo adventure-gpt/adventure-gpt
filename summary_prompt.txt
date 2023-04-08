@@ -1,0 +1,10 @@
+Please provide a summary of the following conversation, including a running tally of the inventory after the conversation, as well as a note of the current year, date, and time, age, gender, and location of the player.
+
+This info should be reported at the end of the summarized history, using the following JSON formatting:
+
+(note, date, time, age, gender, location are required, even if it is not used in the conversation, these should NEVER contain the placeholder values given in the following example.
+Many of the items in the inventory
+
+{"timestamp": "YYYY/MM/DD HH:MM:SS", "age": "X", "gender": "X", "location": "X", "inventory": {"left hand": { "size": 1, "items": [{"name": "phone", "amount": 1, "size": 1}, {"name": "wallet", "amount": 1, "size": 1}]}, "right hand": {"size": 1, "items": [{"name": "keys", "amount": 1, "size": 1}]}, "backpack": {"size": 10, "items": [{"name": "water bottle", "amount": 2, "size": 2}, {"name": "energy bar", "amount": 3, "size": 1}]}}}
+
+Please format your response accordingly.
