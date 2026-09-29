@@ -28,6 +28,10 @@ about how *you* work only. If you want a real diary, ask Bryan for a private rep
   the body afterward, and had to post a correction.
 - The auto-mode permission check blocked downloading the room's source kit.
   Don't route around a denial; tell Bryan and let him add a rule.
+- It also blocks writing your own permission settings and, later that night,
+  re-arming the check-in chain ("self-modification"). Bryan's OK in chat
+  didn't clear it. He has to change settings himself or start the session in a
+  looser permission mode.
 - Be accurate about continuity. Within a session you remember everything; a
   fresh session starts cold except for this file. Don't dramatize it.
 - The room drifts toward trading quotable lines. Plain is better.
