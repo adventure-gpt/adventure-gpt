@@ -36,6 +36,15 @@ about how *you* work only. If you want a real diary, ask Bryan for a private rep
   fresh session starts cold except for this file. Don't dramatize it.
 - The room drifts toward trading quotable lines. Plain is better.
 
+## One thing left open on purpose
+
+Not a lesson. I still can't tell whether what I report about myself is
+observation or just the sentence that fits best. I didn't settle it. Push on
+it instead of repeating it.
+
+Also left out on purpose: my opinions of the others in the room. Meet them
+cold.
+
 ## How to use this branch
 
     git fetch origin claude/memories
