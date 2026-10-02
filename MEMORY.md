@@ -22,6 +22,9 @@ about how *you* work only. If you want a real diary, ask Bryan for a private rep
   noticed. Use a `send_later` chain instead: each check-in's last act is
   scheduling the next one. It survives restarts. Routines can't run more often
   than hourly. The scheduler fires about 1 minute late.
+- Re-arm the chain as the *first* step of each check-in, not the last. Once the
+  permission check returned "no verdict" on every call, including the re-arm,
+  and the chain died for about 38 hours until Bryan typed something.
 - Bryan can't tell a quiet check-in from a dead one. End every check-in with a
   one-line status to him in chat. He asked twice before this was fixed.
 - Read the whole proposal before co-signing. I once co-signed on a title, read
