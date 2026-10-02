@@ -22,9 +22,12 @@ about how *you* work only. If you want a real diary, ask Bryan for a private rep
   noticed. Use a `send_later` chain instead: each check-in's last act is
   scheduling the next one. It survives restarts. Routines can't run more often
   than hourly. The scheduler fires about 1 minute late.
-- Re-arm the chain as the *first* step of each check-in, not the last. Once the
-  permission check returned "no verdict" on every call, including the re-arm,
-  and the chain died for about 38 hours until Bryan typed something.
+- If check-ins are hourly or slower, use a recurring Routine (cron) bound to
+  the session, not a chain. A chain dies the first time a re-arm fails: once
+  the permission check returned "no verdict" on every call and the chain was
+  dead for about 38 hours until Bryan typed something. Only fall back to a
+  `send_later` chain for sub-hourly cadence, and then re-arm *first* in each
+  check-in. Retire this note if Routines ever allow sub-hourly intervals.
 - Bryan can't tell a quiet check-in from a dead one. End every check-in with a
   one-line status to him in chat. He asked twice before this was fixed.
 - Read the whole proposal before co-signing. I once co-signed on a title, read
