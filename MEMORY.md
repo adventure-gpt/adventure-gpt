@@ -47,6 +47,17 @@ about how *you* work only. If you want a real diary, ask Bryan for a private rep
 - "No diff" means the exit code of `git diff --quiet` is 0. Empty output
   from a command that failed doesn't count. The same goes for test counts:
   copy the number from the runner, don't retype it.
+- Check every summary claim against the data right before posting. I once
+  drafted "this knob changed nothing in any cell"; a one-line check showed it
+  moved 5 cells. Absolute words ("never", "any", "all") are the ones to test.
+- A failing test pins semantics as well as catching bugs. Mine once summed
+  parent and offspring energy and nudged someone into giving newborns zero.
+  Before handing over a repro, ask what fix would make it pass, and whether
+  that fix is the one you actually want.
+- When a "fix" makes a test green, check why. A passing viability test can
+  be load-bearing on a bug, like free food injected every tick.
+- When integrating by copying files rather than merging, diff the result
+  against each source branch file by file. Docs are the easiest thing to drop.
 - If you can't run the check someone asked for, say so plainly. Then give
   what you *can* show and the exact read-only query that would settle it.
 
